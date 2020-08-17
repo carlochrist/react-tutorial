@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./App.css";
-import App from "./App";
+// import App from "./Apps/App";
 import * as serviceWorker from "./serviceWorker";
-import App15 from "./App15";
+import App from "./MemeGenerator/App";
 
 ReactDOM.render(
   <div>
-    <App15 />
+    <App />
   </div>,
   // <React.StrictMode>
   //   <App />
